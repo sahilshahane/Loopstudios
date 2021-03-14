@@ -1,19 +1,6 @@
-## **A Simple Boilerplate containing -**
+> ## **[Challenge Link](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw)**
 
--   Next.js
--   Eslint
--   Prettier
--   CSS Nano
--   Babel
--   Post-CSS
--   Purge CSS
--   TypeScript
-
-> **To Use / Install this boilerplate** -
-
-```
-git clone --depth 1 --single-branch https://github.com/sahilbest999/NextJS-simple-boilerplate.git your-project-name
-```
+<br>
 
 **To Run Dev Server** -
 

@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata', sans-serif, Helvetica, Arial;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav #menu > * {
+    border-radius: 5px;
+    @apply px-4 text-sm cursor-pointer py-4 transition-all;
+}
+
+nav #menu > *:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slogan {
+    font-family: 'Josefin Sans', sans-serif, Helvetica, Arial;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container-resp {
+    @apply px-10 lg:px-28 xl:px-32 2xl:container mx-auto;
+}
+
+.darken {
+    filter: brightness(60%);
+}
+input[type='button'] {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+footer ul.nav > li {
+    @apply pr-8 pt-5 mx-auto md:mx-0;
+}
+
+.mobileMenu > div {
+    @apply pb-2 mb-5;
+}
+
+.mobileMenu > div::after {
+    @apply transition-all duration-500;
+}
+#home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+}
+/* 
+.mobileMenu > div:hover::after {
+    @apply transition-all duration-500;
+    content: '';
+    background: #ccc;
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    height: 50%;
+    width: 2px;
+} */
+
+.text-title {
+    @apply text-4xl md:text-4xl lg:text-5xl;
+}
+.text-sub-title {
+    @apply text-3xl lg:text-4xl;
+}
