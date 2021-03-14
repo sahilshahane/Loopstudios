@@ -47,7 +47,7 @@ nav #menu > *:hover {
 }
 
 .darken {
-    filter: brightness(60%);
+    filter: brightness(85%);
 }
 input[type='button'] {
     outline: none !important;
